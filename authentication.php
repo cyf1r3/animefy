@@ -21,7 +21,7 @@
           
         if($count == 1){
 
-            //redirect the user to his page upon successful SignUp
+            //redirect the user to his page upon successful signup
             $url = "usersongs.html";
             redirect($url);
 

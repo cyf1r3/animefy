@@ -36,5 +36,17 @@ style1.css - Responsible for the styling of the index.html page i.e. the login p
 
 usersongs.html - The frontend page where all the songs for any user are displayed
 
-\\\\make different directories for the frontend and backend
-\\\\deep info about each page
+# How to start
+
+1. Make DB named animefy_db
+2. Create table animefy_users
+
+Now you can run the app successfully
+
+
+
+\ make different directories for the frontend and backend
+\ deep info about each page
+\ make recruitcrm like ui for songs
+\ change background
+\ change login and other pages styling

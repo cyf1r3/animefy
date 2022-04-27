@@ -50,3 +50,4 @@ Now you can run the app successfully
 \ make recruitcrm like ui for songs
 \ change background
 \ change login and other pages styling
+\ merge to make a crud app

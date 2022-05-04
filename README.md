@@ -49,6 +49,7 @@ usersongs.html - The frontend page where all the songs for any user are displaye
 
 1. Make DB named animefy_db
 2. Create table animefy_users
+- row creation will be added
 
 Now you can run the app successfully
 

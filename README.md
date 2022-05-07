@@ -55,7 +55,6 @@ Now you can run the app successfully
 
 
 
-\ make different directories for the frontend and backend
 \ deep info about each page
 \ make recruitcrm like ui for songs
 \ change background

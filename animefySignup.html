@@ -22,25 +22,26 @@
     </nav>
 
     
-    <div class="from-content">
+    <div class="from-content" id="frm">
         <h1>Sign up on Animefy</h1>
+        <form name="f1" action = "../backend/signup.php" onsubmit = "return validation()" method = "POST"></form>
         <div class="from">
             <div class="from-list">
-                <input type="text" id="Username" placeholder="Username" data-text="Username">
+                <input type="text" id="user" placeholder="Username" data-text="Username">
               </div>
-          <div class="from-list">
+          <!-- <div class="from-list">
             <input type="text" id="email" placeholder="Email" data-text="Please enter a valid email address.">
-          </div>
+          </div> -->
           <div class="from-list">
-            <input type="password" id="password" placeholder="Password" data-text="The password must be between 6-20 characters long.">
+            <input type="password" id="pass" placeholder="Password" data-text="The password must be between 6-20 characters long.">
           </div>
-          <div class="from-list">
+          <!-- <div class="from-list">
             <input type="password" id="confirmPassword" placeholder="Confirm Password*" data-text="The password must be between 6-20 characters long.">
-          </div>
+          </div> -->
           
           <p class="error-message">&nbsp;</p>
-          <div class="submit-btn">
-            <button id="login">Sign up</button>
+          <div class="submit-btn" id="btn">
+            <button id="btn">Sign up</button>
           </div>
           <p class="tip signup-tip">
               <span>You have an account?</span>
@@ -59,5 +60,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+    <!-- validation for empty field    -->
+    <script>  
+      function validation()  
+      {  
+          var id=document.f1.user.value;  
+          var ps=document.f1.pass.value;  
+          if(id.length=="" && ps.length=="") {  
+              alert("User Name and Password fields are empty");  
+              return false;  
+          }  
+          else  
+          {  
+              if(id.length=="") {  
+                  alert("User Name is empty");  
+                  return false;  
+              }   
+              if (ps.length=="") {  
+              alert("Password field is empty");  
+              return false;  
+              }  
+          }                             
+      }  
+    </script>
+
   </body>
 </html>

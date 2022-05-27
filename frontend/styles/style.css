@@ -52,7 +52,7 @@ nav ul li{
    width: 80%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url("../../res/pics/1.jpg");
+   background-image: url("/res/pics/bg.jpg");
 }
 
 .bottom{

@@ -15,7 +15,7 @@
 
     if($existence_number == 1) {
         echo "Username already exists";
-        header('location:index.html');
+        header('location:../index.html');
     } else {
 
         //Inserting the username and  password values in the table
@@ -24,6 +24,6 @@
 
         //Executing MYSQL Query for entering user data into table
         mysqli_query($con, $insert_data);
-        header('location:index.html');
+        header('location:../index.html');
     }
 ?>

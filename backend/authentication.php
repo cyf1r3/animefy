@@ -22,13 +22,13 @@
         if($count == 1){
 
             //redirect the user to his page upon successful signup
-            $url = "usersongs.html";
+            $url = "../frontend/usersongs.html";
             redirect($url);
 
         }
         else{
             echo "<h1> Login failed. Invalid username or password.</h1>";
-            header('Location: signup.html');
+            header('Location: ../frontend/signup.html');
         }
 
         //Function for redirecting

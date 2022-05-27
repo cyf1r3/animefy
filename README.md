@@ -2,6 +2,16 @@
 
 Music application similar to spotify.
 
+
+# structure
+
+1. covers   -stores the covers for the songs
+2. res      -the resources such as pics & mp3 songs files
+3. frontend -the frontend files including the styling files and JS files
+4. backend  -the backend files i.e php files
+5. index.html - The login page for animefy
+
+# info
 Here I will write how the files and control structure works so that you guys can understand how this web application works.
 
 covers- This directory holds all the song cover pictures or thumbnails.
@@ -16,7 +26,6 @@ authentication.php - Authenticate the user i.e. if the user exists then he is ta
 
 connection.php - To setup the connection with the database
 
-index.html - The login page for animefy
 
 about.html - The about page to give credits to myself
 
@@ -40,13 +49,14 @@ usersongs.html - The frontend page where all the songs for any user are displaye
 
 1. Make DB named animefy_db
 2. Create table animefy_users
+- row creation will be added
 
 Now you can run the app successfully
 
 
 
-\ make different directories for the frontend and backend
 \ deep info about each page
 \ make recruitcrm like ui for songs
 \ change background
 \ change login and other pages styling
+\ merge to make a crud app

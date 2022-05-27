@@ -15,7 +15,7 @@
 
     if($existence_number == 1) {
         echo "Username already exists";
-        header('location:i../ndex.html');
+        header('location:../index.html');
     } else {
 
         //Inserting the username and  password values in the table

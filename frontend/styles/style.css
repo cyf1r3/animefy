@@ -43,17 +43,20 @@ nav ul li{
 }
 
 .container{
-    min-height: 72vh;
+    /* min-height: 72vh; */
     background-color: black;
     color: white;
-   font-family: 'Varela Round', sans-serif;
-   display: flex;
-   margin: 23px auto;
-   width: 80%;
-   border-radius: 12px;
-   padding: 34px;
-   background-image: url("/res/pics/anime.jpg");
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("../../res/pics/anime.jpg");
+    height: 56.8vh;
+    overflow-y: auto;
 }
+
 
 .bottom{
     position: sticky;
